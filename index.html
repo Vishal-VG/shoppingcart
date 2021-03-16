@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>G-CLICK</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style>
+    #anand {
+      display: flex;
+      flex-wrap: wrap;
+      /* margin-left: -500px; */
+    }
+
+    #filter {
+      /* margin-left: 50px; */
+      font-size: 25px;
+    }
+
+
+    .cards:hover{
+      cursor: pointer;
+        box-shadow: 1px 1px 6px 3px darkslategray;;
+    }
+    /* @media only screen and (max-width:980px) {
+      #anand {
+        margin-top: 100px;
+        margin-left: 40px;
+      }
+    } */
+  </style>
+</head>
+
+<script>
+  function cart() {
+    window.location = "cart.html";
+  }
+</script>
+
+<body>
+  <!-------------------------Header  ------------------------------ -->
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: darkslategray;">
+    <div class="container-fluid">
+      <div class="nav justify-content-center" style="color: white;">
+        <h2>G-CLICKS</h2>
+      </div>
+
+      <a href="cart.html" class="btn btn-secondary" id="cart">
+        <i class="fa fa-shopping-cart"></i> My Cart
+      </a>
+
+  </nav>
+
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border">
+        
+        
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+       
+       
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 100px;">
+            MEN
+          </a>
+          <div class="dropdown-menu" class="col-sm-3" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Smart Watches</a>
+            <a class="dropdown-item" href="#">Stainless Steel Watches</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Leather Watches</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 100px;">
+            WOMEN
+          </a>
+          <div class="dropdown-menu" class="col-sm-3" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Smart Watches</a>
+            <a class="dropdown-item" href="#">Stainless Steel Watches</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Leather Watches</a>
+          </div>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="margin-right: 100px;">
+            Smart Watches
+          </a>
+          <div class="dropdown-menu" class="col-sm-3" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Smart Watches</a>
+            <a class="dropdown-item" href="#">Stainless Steel Watches</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Leather Watches</a>
+          </div>
+        </li>
+        
+      </ul>
+     
+    </div>
+  </nav>
+
+  <!--courasel-->
+
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="w1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="w2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="w3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+
+    </button>
+  </div>
+
+
+  <!-- ============================================================================= -->
+  <!-- Side nav bar -->
+  <!-- <div class="d-flex mx-2 flex-row bd-highlight mb-3"> -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 col-lg-2 mt-4 shadow">
+          <div class="d-flex mx-2 flex-row bd-highlight mb-3  border mt-3 shadow navbar-light bg-light sticky-sm-top">
+            <!-- Filters -->
+            <div class="p-2 bd-highlight">
+              <label for="Filter" class="px-3"><strong>Filters</strong></label><br>
+              <label for="Brands" class="pt-2"><strong>Brands</strong></label>
+              <!-- First checkbox -->
+              <div class="form-check">
+                <input class="form-check-input brand" type="checkbox" value="Fossil" id="flexCheckDefault"/>
+                <label class="form-check-label" for="flexCheckDefault">Fossil</label>
+              </div>
+              <!-- Second checkbox -->
+              <div class="form-check">
+                <input class="form-check-input brand" type="checkbox" value="Casio" id="flexCheckChecked" />
+                <label class="form-check-label" for="flexCheckChecked">Casio</label>
+              </div>
+              <!-- Third checkbox -->
+              <div class="form-check">
+                <input class="form-check-input brand" type="checkbox" value="Titan" id="flexCheckChecked"/>
+                <label class="form-check-label" for="flexCheckChecked">Titan</label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input brand" type="checkbox" value="Fastrack" id="flexCheckChecked"/>
+                <label class="form-check-label" for="flexCheckChecked">Fastrack</label>
+              </div>
+
+
+              <!-- Types of Watches-->
+          <label class="pt-3"><strong>Types</strong></label>
+          <!-- analog  checkbox -->
+          <div class="form-check">
+            <input class="form-check-input type" type="checkbox" value="" id="flexCheckChecked" />
+            <label class="form-check-label " for="flexCheckChecked">Analog</label>
+          </div>
+          <!--digital checkbox -->
+          <div class="form-check">
+            <input class="form-check-input type" type="checkbox" value="" id="flexCheckChecked1" />
+            <label class="form-check-label" for="flexCheckChecked">Digital</label>
+          </div>
+          <!--smartwatch checkbox -->
+          <div class="form-check">
+            <input class="form-check-input type" type="checkbox" value="" id="flexCheckChecked1" />
+            <label class="form-check-label" for="flexCheckChecked">Smartwatch</label>
+          </div>
+              
+              <!-- Lense checkbox -->
+              <div class="form-check">
+                
+                <button class="btn" style="background-color: darkslategray; color: white;" onclick="applyFilters()">Apply Filter</button>
+              </div>
+              </div>
+              </div>
+        </div>
+          <!--display the items-->
+        <div class="col-sm-9 col-lg-10 mt-3">
+           <div class="d-flex flex-wrap" id="anand">
+    
+           </div>
+        </div>
+        
+      </div>
+    </div>
+
+  <!--main div ends-->
+<br><br><br>
+  <!-- Footer section -->
+  <div class="container-fluid border">
+  <footer class="bg-light text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+            class="fa fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+            class="fa fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+            class="fa fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+            class="fa fa-instagram"></i></a>
+
+
+        <!-- Github -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+            class="fa fa-github"></i></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: darkslategray;">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">G-CLICKS.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+</div>
+  
+
+</body>
+<script src="listing
+.js"></script>
+
+</html>

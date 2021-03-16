@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src='watch.json'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script>
+          function logo(){
+            window.location="index.html";
+          }
+        </script>
+<style>
+  /* @media only screen and (max-width:980px){
+          #land{
+            margin-top: 100px;
+            margin-left: 40px;
+          }
+        } */
+</style>
+     
+    </head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light mb-3 shadow" style="background-color: darkslategray;">
+    <div class="container-fluid">
+      <div class="nav justify-content-center" onclick="logo()" style="color: white;">
+        <h2>G-CLICKS</h2>
+      </div>
+        
+            <a href="cart.html" class="btn btn-secondary" id="cart">
+              <i class="fa fa-shopping-cart"></i> My Cart
+            </a>
+         
+      </div>
+ </nav>
+    
+            
+  
+
+<div class="container mb-2">
+  <div class="row">
+    <div class="col-sm-5 border d-flex align-items-center justify-content-center pt-2 pb-2 shadow ">
+      <img src="" id="image" alt="" height="300px" width="80%" >
+  </div>
+  <div class="col-sm-7 border" id="land">
+      <h1 id="name" style="color: darkslategray;"></h1>
+      <h3 id="price"></h3>
+      <h3 id="rating"></h3>
+      <h3 id="Brand"></h3>
+      <br>
+      <h2 style="color: darkslategray;">Description</h2>
+      <hr>
+      <ul>
+        <li>
+          <h5 id="desc"></h5>
+        </li>
+        <li>
+          <h5 id="desc1"></h5>
+        </li>
+        <li>
+          <h5 id="desc2"></h5>
+        </li>
+      </ul>
+      <div class="d-flex justify-content-start ml-3"><button class="btn btn-lg btn-success" onclick="myCart()">Add to cart</button></div>
+     
+  </div>
+</div>
+</div>
+
+
+<br>
+  <!-- Footer section -->
+  <div class="container-fluid">
+    <div class="row bg-light text-white d-flex justify-content-center border shadow">
+      <!-- Grid container -->
+      <!-- <div class="container p-4 pb-0"> -->
+        <!-- Section: Social media -->
+        <div class="d-flex justify-content-center">
+        <section class="m-3">
+          <!-- Facebook -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998;" href="#!" role="button"><i
+              class="fa fa-facebook-f"></i></a>
+  
+          <!-- Twitter -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee;" href="#!" role="button"><i
+              class="fa fa-twitter"></i></a>
+  
+          <!-- Google -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39;" href="#!" role="button"><i
+              class="fa fa-google"></i></a>
+  
+          <!-- Instagram -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac;" href="#!" role="button"><i
+              class="fa fa-instagram"></i></a>
+  
+  
+          <!-- Github -->
+          <a class="btn btn-primary btn-floating m-1" style="background-color: #333333;" href="#!" role="button"><i
+              class="fa fa-github"></i></a>
+        </section>
+      </div>
+    </div>
+        <!-- Section: Social media -->
+      <!-- </div> -->
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div class="row">
+      <div class="d-flex justify-content-center p-3 " style="background-color: darkslategray;">
+        <h6 class="text-light">© 2020 Copyright:</h6>
+        <h6><a class="text-white" href="https://mdbootstrap.com/">G-CLICKS.com</a></h6>
+      </div>
+    </div>
+      <!-- Copyright -->
+    
+  </div>
+    
+</body>
+
+
+
+<script src="landing.js"></script>
+</html>
